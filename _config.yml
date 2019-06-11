@@ -13,23 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Karthik Sridhar
+email: contactkarthik34@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Hi, I am Karthik Sridhar. I am a second year Computer Scientist at the
+  University of Bristol. I like learning new things and my interests are
+  heavily inclined towards Data Analytics and UI/UX programming.
+baseurl: "/karthiksridhar" # the subpath of your site, e.g. /blog
+url: "https://karthiksridhar.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: https://twitter.com/kartsridhar
+github_username:  https://github.com/kartsridhar
+facebook_username: https://www.facebook.com/theblakfyre
+instagram_username: https://www.instagram.com/kartsridhar/
+linkedin_username: https://www.linkedin.com/in/karthik-sridhar-343546147/
 
 # Build settings
+permalink: pretty     # removes the file extension on the URL
+
 markdown: kramdown
-theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-autoprefixer
 
+sass:
+  sass_dir: _sass
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
