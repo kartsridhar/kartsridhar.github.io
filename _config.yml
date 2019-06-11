@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi, I am Karthik Sridhar. I am a second year Computer Scientist at the
   University of Bristol. I like learning new things and my interests are
   heavily inclined towards Data Analytics and UI/UX programming.
-baseurl: "/karthiksridhar" # the subpath of your site, e.g. /blog
+baseurl: "/kartsridhar.github.io" # the subpath of your site, e.g. /blog
 url: "https://karthiksridhar.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: https://twitter.com/kartsridhar
 github_username:  https://github.com/kartsridhar
