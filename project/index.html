@@ -1,3 +1,9 @@
 ---
 layout: default
 ---
+
+<h4>My Projects</h4>
+{% for p in site.posts %}
+  <h3>
+    <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+  </h3>
