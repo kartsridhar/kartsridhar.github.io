@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi, I am Karthik Sridhar. I am a second year Computer Scientist at the
   University of Bristol. I like learning new things and my interests are
   heavily inclined towards Data Analytics and UI/UX programming.
-baseurl: "/kartsridhar.github.io" # the subpath of your site, e.g. /blog
-url: "https://karthiksridhar.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/thekarthiksridhar.github.io" # the subpath of your site, e.g. /blog
+url: "https://thekarthiksridhar.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: https://twitter.com/kartsridhar
 github_username:  https://github.com/kartsridhar
 facebook_username: https://www.facebook.com/theblakfyre
@@ -28,20 +28,12 @@ instagram_username: https://www.instagram.com/kartsridhar/
 linkedin_username: https://www.linkedin.com/in/karthik-sridhar-343546147/
 
 # Build settings
-permalink: pretty     # removes the file extension on the URL
-
-markdown: kramdown
-
-plugins:
-  - jekyll-feed
-  - jekyll-autoprefixer
-
 sass:
   sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
