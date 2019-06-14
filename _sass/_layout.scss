@@ -1,0 +1,15 @@
+h1, h2, h3 {
+  font-weight: 500;
+  color: $font-head-colour;
+  font-family: $font-head;
+  line-height: 1;
+}
+
+h1 {
+  color: $main-colour;
+  font-size: 2em;
+  a, a:visited {
+    text-decoration: none;
+    color: $main-colour;
+  }
+}
