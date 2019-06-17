@@ -2,6 +2,9 @@
   <div class="container">
     <nav>
       <ul>
+        <li>
+          <a href="{{ '/projects' | prepend: site.baseurl }}">Projects</a>
+        </li>
         {% for p in site.pages %} {% if p.title %}
         <li>
           <a href="{{ p.url | prepend: site.baseurl}}">{{ p.title }}</a>
