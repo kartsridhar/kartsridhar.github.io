@@ -12,4 +12,4 @@ Find me on:
 * [Facebook]({{ site.facebook_username }})
 * [Instagram]({{ site.instagram_username }})
 * [LinkedIn]({{ site.linkedin_username }})
-* [E-mail](ks17226@bristol.ac.uk)
+* [E-mail](mailto:ks17226@bristol.ac.uk)
