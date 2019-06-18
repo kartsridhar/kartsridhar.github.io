@@ -2,13 +2,7 @@
 layout: default
 ---
 
-<h4>Here are few of my projects:</h4>
-{% for p in site.projects %}
-  <h5>
-    <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-  </h5>
+<h3>Click on each to know more</h3>
+{% for proj in site.projs %}
+		<h4><a href="{{ proj.url | prepend: site.baseurl }}">{{ proj.title }}</a></h4>
 {% endfor %}
-
-<p>
-  Got an idea and want to share? Try <a href="mailto:ks17226@bristol.ac.uk">emailing</a> me and let's discuss.
-</p>
