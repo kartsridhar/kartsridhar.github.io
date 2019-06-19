@@ -136,4 +136,9 @@ footer {
   float: left;
   width: 20%;
   padding: 25px;
+  transition: 0.3s;
+}
+
+.column:hover {
+  transform: scale(1.3);
 }
