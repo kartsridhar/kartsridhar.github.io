@@ -1,27 +1,30 @@
 <aside>
-  <div class="container">
-    <nav>
-      <ul>
-        {% for p in site.pages %} {% if p.title %}
-        <li>
-          <a href="{{ p.url | prepend: site.baseurl}}">{{ p.title }}</a>
-        </li>
-        {% endif %} {% endfor %}
-        <li>
-          <a href="{{ '/projects' | prepend: site.baseurl }}">Projects</a>
-        </li>
-        <li>
-          <a href="{{ '/interests' | prepend: site.baseurl }}">Interests</a>
-        </li>
-        <li>
-          <a href="{{ '/gallery' | prepend: site.baseurl }}">Gallery</a>
-        </li>
-        <li>
-          <a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <nav>
+    <ul class="nav-links">
+      {% for p in site.pages %} {% if p.title %}
+      <li>
+        <a href="{{ p.url | prepend: site.baseurl}}">{{ p.title }}</a>
+      </li>
+      {% endif %} {% endfor %}
+      <li>
+        <a href="{{ '/projects' | prepend: site.baseurl }}">Projects</a>
+      </li>
+      <li>
+        <a href="{{ '/interests' | prepend: site.baseurl }}">Interests</a>
+      </li>
+      <li>
+        <a href="{{ '/gallery' | prepend: site.baseurl }}">Gallery</a>
+      </li>
+      <li>
+        <a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
 </aside>
 
 <header>
