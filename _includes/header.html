@@ -1,6 +1,6 @@
-<aside>
+<div class="nav-main">
   <nav>
-    <ul class="nav-links">
+    <ul class="nav-links" align="right">
       {% for p in site.pages %} {% if p.title %}
       <li>
         <a href="{{ p.url | prepend: site.baseurl}}">{{ p.title }}</a>
@@ -25,7 +25,7 @@
       <div class="line3"></div>
     </div>
   </nav>
-</aside>
+</div>
 
 <header>
   <h1 class="animated slideInLeft"><a href="http://kartsridhar.github.io">{{ site.title }}</a></h1>
