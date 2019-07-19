@@ -59,6 +59,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -67,6 +68,7 @@ DEPENDENCIES
   bundler (~> 1.16)
   jekyll-theme-startbootstrap-agency!
   rake (~> 12.0)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.16.0

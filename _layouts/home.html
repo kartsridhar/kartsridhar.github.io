@@ -118,64 +118,6 @@ layout: default
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.team.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.team.subheading }}</h3>
-          </div>
-        </div>
-        <div class="row">
-          {%- for member in site.data.home.team.members -%}
-          {% assign ws = '' %}
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
-              <h4>{{ member.name }}</h4>
-              <p class="text-muted">{{ member.role }}</p>
-              <ul class="list-inline social-buttons">
-                {%- for sm in member.social-buttons -%}
-                {% assign ws = '' %}
-                <li class="list-inline-item">
-                  <a href="{{ sm.url }}">
-                    <i class="{{ sm.icon }}"></i>
-                  </a>
-                </li>
-                {%- endfor -%}
-              {% assign ws = '' %}
-              </ul>
-            </div>
-          </div>
-          {%- endfor -%}
-        {% assign ws = '' %}
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">{{ site.data.home.team.text }}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          {%- for client in site.data.home.clients -%}
-          {% assign ws = '' %}
-          <div class="col-md-3 col-sm-6">
-            <a href="{{ client.url }}">
-              <img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ client.img }}" alt="">
-            </a>
-          </div>
-          {%-  endfor -%}
-        {% assign ws = '' %}
-        </div>
-      </div>
-    </section>
-
     <!-- Contact -->
     <section id="contact">
       <div class="container">

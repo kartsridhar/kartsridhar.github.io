@@ -2,7 +2,7 @@ title: Karthik Sridhar
 description: 'Second Year Computer Science student at the University of Bristol'
 author: 'Karthik Sridhar'
 
-theme: jekyll-theme-startbootstrap-agency
+# theme: jekyll-theme-startbootstrap-agency
 
 sass:
   style: compressed
