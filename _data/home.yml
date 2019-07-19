@@ -1,0 +1,66 @@
+intro:
+  lead-in: "Welcome To My Website!"
+  heading: It's Nice To Meet You
+  btn: Resume
+
+services:
+  heading: Profile
+  subheading: A little background of me
+  service:
+    - icon: fa fa-graduation-cap
+      heading: Education
+      text: I am currently in my third year of my MEng in Computer Science at the University of Bristol.
+    - icon: fa fa-laptop
+      heading: Languages and Frameworks
+      text: <b>Proficient</b> - Python, Java, C, Shell, Git, MySQL.
+            <b>Familiar</b> - Haskell, HTML & CSS, JavaScript, Android Studio, Keras, Amazon Web Services and Oracle.
+    - icon: fa fa-bar-chart
+      heading: Interests
+      text: I like doing Data Analysis and creating new User Experiences. Besides, I love football and table tennis.
+
+portfolio:
+  heading: Projects
+  subheading: A few of my personal and University projects.
+
+about:
+  heading: Career
+  subheading: My past experiences
+  timeline:
+    - image: img/about/1.jpg
+      date: July 2019 - September 2019
+      title: Student Intern at Zone
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    - image: img/about/2.jpg
+      date: July 2017 - August 2017
+      title: Student Intern at Persistent Systems
+      text: Worked in a team of seven employees, tackling the Machine Learning project given by the NHS Singapore in order to boost their systems.
+            Used Excel and GNU Octave to achieve the same.
+    - image: img/about/3.jpg
+      date: May 2017 - July 2017
+      title: Student Intern at Manumits
+      text: Took a month-long course on Mobile and Web development.
+            Worked in a team of four to develop a website and a mobile application for a client.
+            Used HTML5, CSS (Sass), JS and Cordova to achieve the same.
+
+
+  end1: More
+  end2: To Come
+  end3: Soon!
+
+contact:
+  heading: Contact Me
+  subheading: I would love to collaborate with and hear from you.
+  name: Your Name *
+  name-required: Please enter your name.
+  email: Your Email *
+  email-required: Please enter your email address.
+  phone: Your Phone *
+  phone-required: Please enter your phone number.
+  message: Your Message *
+  message-required: Please enter a message.
+  btn: Send Message
+
+  js-url: '././mail/contact_me.php'
+  js-success: 'Your message has been sent. '
+  js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
+  js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'
