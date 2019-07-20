@@ -26,16 +26,16 @@ about:
   heading: Career
   subheading: My past experiences
   timeline:
-    - image: img/about/1.jpg
+    - image: img/about/zone.png
       date: July 2019 - September 2019
       title: Student Intern at Zone
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/2.jpg
+    - image: img/about/persistent.jpg
       date: July 2017 - August 2017
       title: Student Intern at Persistent Systems
       text: Worked in a team of seven employees, tackling the Machine Learning project given by the NHS Singapore in order to boost their systems.
             Used Excel and GNU Octave to achieve the same.
-    - image: img/about/3.jpg
+    - image: img/about/manumits.jpg
       date: May 2017 - July 2017
       title: Student Intern at Manumits
       text: Took a month-long course on Mobile and Web development.
