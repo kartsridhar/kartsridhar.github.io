@@ -24,7 +24,7 @@ social-buttons:
 
 modal:
   date-string: 'Date: '
-  client-string: 'Client: '
-  category-string: 'Category: '
+  # client-string: 'Client: '
+  # category-string: 'Category: '
   close-icon: 'fa fa-times'
   close-string: 'Close Project'
