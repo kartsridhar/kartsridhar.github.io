@@ -25,6 +25,8 @@ social-buttons:
     url: 'https://github.com/kartsridhar'
   - icon: fa fa-linkedin
     url: 'https://www.linkedin.com/in/karthik-sridhar-343546147/'
+  - icon: fa fa-envelope
+    url: 'mailto:contactkarthik34@gmail.com'
 
 modal:
   date-string: 'Date: '
