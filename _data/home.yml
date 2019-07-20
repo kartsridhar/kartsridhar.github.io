@@ -1,6 +1,6 @@
 intro:
-  lead-in: "Hello World!"
-  heading: Personal Portfolio
+  lead-in: "My Personal Portfolio"
+  heading: Hello World!
   btn: Résumé
 
 services:
@@ -13,7 +13,7 @@ services:
     - icon: fa fa-laptop
       heading: Languages and Frameworks
       text: <b>Proficient</b> - Python, Java, C, Shell, Git, MySQL.
-            <b>Familiar</b> - Haskell, HTML & CSS, JavaScript, Android Studio, Keras, Amazon Web Services and Oracle.
+            <b>Familiar</b> - Haskell, HTML & CSS, JavaScript, Android Studio, Keras, Amazon Web Services and Krita.
     - icon: fa fa-bar-chart
       heading: Interests
       text: I like doing Data Analysis and creating new User Experiences. Besides, I love football and table tennis.

@@ -19,6 +19,10 @@ social-buttons:
     url: 'https://twitter.com/kartsridhar'
   - icon: fa fa-facebook
     url: 'https://facebook.com/theblakfyre'
+  - icon: fa fa-instagram
+    url: 'https://instagram.com/kartsridhar'
+  - icon: fa fa-github
+    url: 'https://github.com/kartsridhar'
   - icon: fa fa-linkedin
     url: 'https://www.linkedin.com/in/karthik-sridhar-343546147/'
 
