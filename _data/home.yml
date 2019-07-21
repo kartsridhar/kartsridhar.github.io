@@ -48,19 +48,13 @@ about:
   end3: Soon!
 
 contact:
-  heading: Contact Me
-  subheading: I would love to collaborate with and hear from you.
-  name: Your Name *
-  name-required: Please enter your name.
-  email: Your Email *
-  email-required: Please enter your email address.
-  phone: Your Phone *
-  phone-required: Please enter your phone number.
-  message: Your Message *
-  message-required: Please enter a message.
-  btn: Send Message
-
-  js-url: '././mail/contact_me.php'
-  js-success: 'Your message has been sent. '
-  js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
-  js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'
+  heading: Gallery
+  subheading: A few of my captured moments
+  slider:
+    text_color: white
+    shadow_color: black
+    slides:
+      - image: img/contact-y.png
+        slide_html:
+      - image: img/map-image.png 
+        slide_html:
