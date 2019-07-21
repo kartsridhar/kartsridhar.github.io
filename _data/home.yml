@@ -16,7 +16,7 @@ services:
             <b>Familiar</b> - Haskell, HTML & CSS, JavaScript, Android Studio, Keras, Amazon Web Services and Krita.
     - icon: fa fa-bar-chart
       heading: Interests
-      text: I like doing Data Analysis and creating new User Experiences. Besides, I love football and table tennis.
+      text: I like doing Data Analysis and creating new User Experiences.
 
 portfolio:
   heading: Projects
@@ -47,14 +47,15 @@ about:
   end2: To Come
   end3: Soon!
 
-contact:
-  heading: Gallery
-  subheading: A few of my captured moments
-  slider:
-    text_color: white
-    shadow_color: black
-    slides:
-      - image: img/contact-y.png
-        slide_html:
-      - image: img/map-image.png 
-        slide_html:
+team:
+  heading: Other Interests
+  subheading: My hobbies, interests and extra curriculars
+  members:
+    - img: img/me.jpg
+  text: Apart from academics, I enjoy playing all kind of sports. I particularly like
+        football and table tennis. Back in the day, I represented my high school for various
+        inter-school tournaments. As a practice, I regularly take part in the University's respective club
+        activities.
+
+        On the other hand, I have always believed in giving back to the society and
+        take part in various volunteering and poverty alleviation campaigns.
