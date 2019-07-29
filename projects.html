@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Karthik Sridhar</title>
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand|Cinzel+Decorative">
+        <link rel="stylesheet" type="text/css" href="css/style.css"
+    </head> 
+    <body>
+        <section class="container-fluid bg-landing" id="landing">
+            <div class="overlay">
+                <div class="wrapper">
+                    <div class="banner-text">
+                        <h1>Karthik</h1>
+                        <h1>Sridhar</h1>
+                        <p class="font=md my-2">
+                            Design Thinker | Coder | Animal Lover | Sports Fanatic
+                        </p>
+                    </div>
+                    <div class="banner-button my-2">
+                        <button class="btn">
+                            <a href="docs/Resume.pdf">
+                                RESUME
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid d-flex-c" id="details">
+            <div class="text-center text-container">
+                <h2>PROJECTS</h2>
+                <br>
+                <br>
+                <p>Here are a few of my Personal and University projects.</p>
+            </div>
+        </section>
+
+        <div class="project-section">
+            <ul class="project-grid">
+                <li id="openBrisbuds">
+                    <div class="project-box project-img-1">
+                        <div class="project-info">
+                            <!-- <a href="#"> -->
+                                <h3>Bristol Buddies</h3>
+                                <p>A Student Matching application for the University of Bristol</p>
+                            <!-- </a> -->
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openSpam">
+                    <div class="project-box project-img-2">
+                        <div class="project-info">
+                                <h3>Spam Classifier</h3>
+                                <p>A simple spam classifier using Multinomial Naive Bayes</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openMovies">
+                    <div class="project-box project-img-3">
+                        <div class="project-info">
+                            <h3>Similar Movies</h3>
+                            <p>A similar movie recommendation system using pandas</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openGol">
+                    <div class="project-box project-img-4">
+                        <div class="project-info">
+                            <a href="#">
+                                <h3>Game of Life</h3>
+                                <p>An implementation of Conway's Game of Life</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openKernel">
+                    <div class="project-box project-img-5">
+                        <div class="project-info">
+                            <a href="#">
+                                <h3>Kernel OS</h3>
+                                <p>A kernel implementation for ARM Cortex-A8</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openSym">
+                    <div class="project-box project-img-6">
+                        <div class="project-info">
+                            <a href="#">
+                                <h3>Scotland Yard</h3>
+                                <p>The famous Scotland Yard board game on the screen</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openBounce">
+                    <div class="project-box project-img-7">
+                        <div class="project-info">
+                            <a href="#">
+                                <h3>Bounce Revamped</h3>
+                                <p>A remake of the classic Bounce platform game</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openSnake">
+                    <div class="project-box project-img-8">
+                        <div class="project-info">
+                            <a href="#">
+                                <h3>Snake</h3>
+                                <p>A simple implementation of the vintage snake game</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div id="brisbuds" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Bristol Buddies</h2>
+                </div>
+                <div class="modal-body">
+                    <p>As the University of Bristol launched the Global Transfer Programme to enable students studying at selected overseas university partners to transfer onto specific programmes, the Bristol Buddies scheme was launched. The idea was to match transfer students with current students (their “Buddy”) who would volunteer their time to provide regular peer support and act as a reliable point of contact to help with the integration of transfer students.</p>
+                    <p>To facilitate this process, we created an Android application that helps connect incoming transfer students with their matched buddy. The application provided a platform to connect students with their buddies and a messaging service for communication. The buddies were matched to the students on the basis of common matches in personality traits, motivations and expectations.</p>
+                    <center><img src="img/projects/brisbuds1.jpeg"></center>
+                    <p>The application was developed utilising the MIT license.</p>
+                    <p>The detailed Portfolio of this project can be found <a href="https://github.com/kartsridhar/BristolBuddies/tree/master/Portfolio">here</a>.</p>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/BristolBuddies">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Java, SpringBoot, MySQL, Oracle, Android Studio and CircleCI</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="spamc" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Spam Classifier</h2>
+                </div>
+                <div class="modal-body">
+                    <p>To experiment with classification, I wrote a program that classifies text as Spam or Ham (Not Spam).
+                            I used <a href="https://scikit-learn.org/stable/">sklearn's</a> classification library for the same. For easier, faster and accurate predictions, I built the training model using <a href="https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html">Multinomial Naive Bayes</a>.</p>
+                    <p>The dataset used to train this model can be found <a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">here</a>.</p>
+                    <center><img src="img/projects/spam1.JPG"></center>
+                    <p>Using AWS Elastic Beanstalk, I deployed the Flask application onto cloud. Below is the output for the above text entered.</p>
+                    <center><img src="img/projects/spam2.JPG"></center>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/gnb-spam-classifier">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Python, Flask and AWS Elastic Beanstalk</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="movies" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Similar Movies</h2>
+                </div>
+                <div class="modal-body">
+                    <p>To experiment with Item Based Collaborative Filtering, I wrote a python script that finds similar movies and recommendations through correlation. For testing purposes, I used the dataset provided by <a href="https://movielens.org/">MovieLens</a>.</p>
+                    <p>If the user runs the program and enters the movie name per the format, the program uses vital information such as genre and Movie Ratings to return a list of similar movies. For recommendations, the program does the same process and uses the number of unique user ratings and information from corresponding covariance matrices to recommend a list of movies.</p>
+                    <p>When the similar.py script is run, the output (below) is generated</p>
+                    <p>
+                        <code>
+                            $ python similar.py
+                            <br>
+                            Enter a movie of the form MOVIE_NAME (YEAR_OF_RELEASE): Fight Club (1999)
+                        </code>
+                    </p>
+                    <center><img src="img/projects/movies1.JPG"></center>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/similar-movies">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Python</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="gol" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Game of Life</h2>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/projects/gol1.gif"></center>
+                    <p>As part of the Concurrent Computing coursework, as pairs, we implemented the classic zero player cellular automation game, <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> in XC, a langauge that supports parallel programming. We used XMOS' <a href="https://www.xmos.com/products/general/kits#explorerkit">xCore 200</a> explorer kit to achieve the same.</p>
+                    <p>We implemented a Message Passing model between the channels and were successfully able to run automations for images upto 300 by 300 pixels.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>XC</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="kernel" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Kernel OS</h2>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/projects/kernel2.JPG"></center>
+                    <p>As part of the Concurrent Computing coursework, I developed a kernel for Cortex-A8 (above) emulated by <a href="https://www.qemu.org/">QEMU</a>. The skeleton was provided by the University.</p>
+                    <p>Most of it is written in C and Assembly. The core stuff of the kernel can be found in <a href="https://github.com/kartsridhar/Kernel-Cortex-A8/blob/master/question/kernel/hilevel.c">hilevel.c</a>.</p>
+                    <p>The Kernel features the following things:</p>
+                    <p>Dynamic creation and termination of user programs. For example: P3, P4, P5 and 2B.</p>
+                    <p>Priority-based scheduling of the PCBs. I do not use any data structure here however have made a linked-list library for it <a href="https://github.com/kartsridhar/Linked-List-Library/blob/master/list.c">here</a>.</p>
+                    <p>Inter Process Communication (Message Passing/Pipes) demonstrated by a program that solves the <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem">Dining Philosopher's Problem</a>.</p>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/Kernel-Cortex-A8">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>C, Assembly and Shell</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="sym" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Scotland Yard</h2>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/projects/scot2.jpeg"></center>
+                    <p>The objective of the Object Oriented programming unit was to digitally implement the
+                            popular <a href="https://en.wikipedia.org/wiki/Scotland_Yard_(board_game)">Scotland Yard</a> board game in teams of two. Initially, we were provided with the following:</p>
+                    <p>The Game View and Controllers.</p>
+                    <p>The GUI</p>
+                    <p>124 test cases</p>
+                    <p>The project covered vital aspects of object oriented programming and even introduced
+                            the use of _Observer Patterns_ in order to accommodate spectators in the game. When run,
+                            the GUI (above) allows the user to select the number of players and assign the respective
+                            tickets. Once the game starts, Mr. X's move count and tickets are displayed on the left
+                            while the status of the Detectives on the right.</p>
+                    <p>All source code for this project can be found <a href="https://github.com/AselKitulagoda/ScotlandYardGame">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Java</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="bounce" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Bounce Revamped</h2>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/projects/bounce-main.jpeg"></center>
+                    <p>For the University GameJam competition, my team and I decided to recreate the classic brick platform game on Unity. The game contains 4 levels with the last one trivially being the hardest.</p>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/Bounce-Revamped">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Unity Game Engine</h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="snake" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Snake</h2>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/projects/snake2.JPG"></center>
+                    <p>I created a simple snake-food game on Java to experiment with KeyListeners, Graphics and Panels. Plan to add snake wraps, new obstacles and exciting stuff in the future.
+                        </p>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/SimpleSnakeGame">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Unity Game Engine</h6>
+                </div>
+            </div>
+        </div>
+
+        <section class="d-flex-r justify-content-space-around p-1 bg-grey" id="social">
+            <ul class="d-flex-r">
+                <li><a href="https://facebook.com/theblakfyre"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/kartsridhar"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/kartsridhar"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/karthik-sridhar-343546147/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="mailto:contactkarthik34@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <center>
+                Copyright &copy; Karthik 2019
+            </center>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,601 @@
+* {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-style: normal;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-family: "Cinzel Decorative", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.d-flex-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.d-flex-r {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justify-content-space-around {
+    justify-content: space-around; 
+}
+
+.reverse-wrap {
+    flex-wrap: wrap-reverse;
+}
+
+.one_half {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-4 {
+    margin: 4rem;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bg-landing {
+    background: url('../img/heading-wallpaper.jpg') fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+
+#landing p {
+    color: aliceblue;
+}
+
+#landing .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 800px;
+}
+
+.banner-text h1 {
+    font-size: 7rem;
+    font-weight: 100;
+    line-height: 1;
+    color: #FFF;
+    max-width: max-content;
+    max-width: -moz-max-content;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#landing .wrapper {
+    margin: 8rem;
+    margin-top: 0;
+    padding-top: 8rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.font-md {
+    font-size: 1.5rem;
+}
+
+.text-container {
+    padding: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid white;
+    transition: 0.3s ease;
+}
+
+.btn a {
+    color: #FFF;
+}
+
+.btn, .btn.inverse:hover {
+    color: aliceblue;
+    background-color: rgb(45, 51, 48);
+    border-color: rgb(45, 51, 48);
+    transition: 0.3s ease;
+}
+
+.btn:hover, .btn.inverse {
+    color: aliceblue;
+    background-color: transparent;
+    border-color: aliceblue;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(0, 1);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+    filter: brightness(0.2);
+}
+
+.hovereffect p {
+    color: #FFF;
+}
+
+#social.bg-grey {
+    background-color: rgb(229, 226, 226);
+}
+
+footer {
+    background-color: rgb(229, 226, 226);
+}
+
+#social li i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#social li:hover i.fa-facebook {
+    color: #4E64B5;
+}
+
+#social li:hover i.fa-twitter {
+    color: #0288d1;
+}
+
+#social li:hover i.fa-github {
+    color: rgb(32, 201, 88);
+}
+
+#social li:hover i.fa-linkedin {
+    color: #00aced;
+}
+
+#social li:hover i.fa-envelope {
+    color: #c22216;
+}
+
+/*ABOUT PAGE STUFF*/
+.skill-wrapper {
+    width: 500px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+.skill-wrapper h2 {
+    color: #c22216;
+}
+
+.skill-wrapper li {
+    position: relative;
+    list-style: none;
+    margin: 30px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.skill-wrapper li:before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgb(46, 46, 46, .5);
+    border-radius: 1000px;
+}
+
+.skill-wrapper li:after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: #000;
+    border-radius: 1000px;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.skill-wrapper li.python:after {
+    animation-name: python;
+}
+
+@keyframes python {
+    to {
+        width: 80%;
+    }
+}
+
+.skill-wrapper li.java:after {
+    animation-name: java;
+}
+
+@keyframes java {
+    to {
+        width: 75%;
+    }
+}
+
+.skill-wrapper li.csharp:after {
+    animation-name: csharp;
+}
+
+@keyframes csharp {
+    to {
+        width: 70%;
+    }
+}
+
+.skill-wrapper li.htmlcss:after {
+    animation-name: htmlcss;
+}
+
+@keyframes htmlcss {
+    to {
+        width: 65%;
+    }
+}
+
+.skill-wrapper li.photoshop:after {
+    animation-name: photoshop;
+}
+
+@keyframes photoshop {
+    to {
+        width: 65%;
+    }
+}
+
+.skill-wrapper li.android:after {
+    animation-name: android;
+}
+
+@keyframes android {
+    to {
+        width: 70%;
+    }
+}
+
+.skill-wrapper li.flask:after {
+    animation-name: flask;
+}
+
+@keyframes flask {
+    to {
+        width: 65%;
+    }
+}
+
+.skill-wrapper li.spring:after {
+    animation-name: spring;
+}
+
+@keyframes spring {
+    to {
+        width: 65%;
+    }
+}
+
+.skill-wrapper li.keras:after {
+    animation-name: keras;
+}
+
+@keyframes keras {
+    to {
+        width: 60%;
+    }
+}
+
+/*PROJECTS CSS GRID SECTION*/
+.project-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.project-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.project-grid:after {
+    clear: both;
+}
+
+.project-grid::after, .project-grid:before {
+    content: '';
+    display: table;
+}
+
+.project-grid li {
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.project-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    /* background: #000; */
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out opacity;
+}
+
+.project-box:hover {
+    /* opacity: 0.2; */
+    transform: scale(1.05);
+}
+
+.project-box:hover .project-info {
+    visibility: visible;
+}
+
+.project-img-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/brisbuds.jpg');
+    background-size: cover;
+}
+
+.project-img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/spam3.jpg');
+    background-size: 100% 100%;
+}
+
+.project-img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/movies.jpg');
+    background-size: 100% 100%;
+}
+
+.project-img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/gol2.jpg');
+}
+
+.project-img-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/kernel1.jpg');
+    background-size: 100% 100%;
+}
+
+.project-img-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/MrX.jpg');
+    background-size: cover;
+}
+
+.project-img-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/bounce.jpg');
+    background-size: cover;
+}
+
+.project-img-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/snake1.png');
+    background-size: cover;
+}
+
+.project-info {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    visibility: hidden;
+    background: #FFF;
+    opacity: 0.7;
+}
+
+.project-info h3 {
+    font-weight: 400;
+    color: #000;
+    font-size: 42px;
+    margin: 0 30px;
+    padding: 100px 0 0 0;
+    line-height: 1.5;
+}
+
+.project-info p {
+    color: #000;
+}
+
+/*Modal styling*/
+.modal, #brisbuds, #spamc, #movies, #gol, #kernel, #sym, #bounce, #snake {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    width: 90%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.modal-header h2, .modal-footer h3 {
+    margin: 0;
+}
+
+.modal-header {
+    background: #000;
+    color: #FFF;
+    padding: 15px;
+}
+
+.modal-footer {
+    background: #000;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-body {
+    padding: 10px 20px;
+}
+
+.modal-body a {
+    color: #0288d1;
+    font-size: 1.2rem;
+}
+
+.modal-body p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.close-modal {
+    color: #FFF;
+    float: right;
+    font-size: 30px;
+}
+
+.close-modal:hover, .close-modal:focus {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(241, 231, 231);
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*RESPONSIVE PART*/
+@media screen and (max-width: 992px) {
+    p {
+        font-size: 0.85rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .banner-text h1 {
+        font-size: 6rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 0.75rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .one_half {
+        width: 100%;
+    }
+
+    .banner-text h1 {
+        font-size: 5rem !important;
+    }
+}
