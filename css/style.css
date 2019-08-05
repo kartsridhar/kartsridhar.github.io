@@ -228,6 +228,10 @@ footer {
     margin: 1rem;
 }
 
+#social li i {
+    color: black;
+}
+
 #social li:hover i.fa-facebook {
     color: #4E64B5;
 }
@@ -246,140 +250,6 @@ footer {
 
 #social li:hover i.fa-envelope {
     color: #c22216;
-}
-
-/*ABOUT PAGE STUFF*/
-.skill-wrapper {
-    width: 500px;
-    margin: 50px auto 0;
-    padding: 20px;
-}
-
-.skill-wrapper h2 {
-    color: #c22216;
-}
-
-.skill-wrapper li {
-    position: relative;
-    list-style: none;
-    margin: 30px 0;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.skill-wrapper li:before {
-    content: '';
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    width: 100%;
-    height: 15px;
-    background-color: rgb(46, 46, 46, .5);
-    border-radius: 1000px;
-}
-
-.skill-wrapper li:after {
-    content: '';
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    width: 0;
-    height: 15px;
-    background-color: #000;
-    border-radius: 1000px;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
-}
-
-.skill-wrapper li.python:after {
-    animation-name: python;
-}
-
-@keyframes python {
-    to {
-        width: 80%;
-    }
-}
-
-.skill-wrapper li.java:after {
-    animation-name: java;
-}
-
-@keyframes java {
-    to {
-        width: 75%;
-    }
-}
-
-.skill-wrapper li.csharp:after {
-    animation-name: csharp;
-}
-
-@keyframes csharp {
-    to {
-        width: 70%;
-    }
-}
-
-.skill-wrapper li.htmlcss:after {
-    animation-name: htmlcss;
-}
-
-@keyframes htmlcss {
-    to {
-        width: 65%;
-    }
-}
-
-.skill-wrapper li.photoshop:after {
-    animation-name: photoshop;
-}
-
-@keyframes photoshop {
-    to {
-        width: 65%;
-    }
-}
-
-.skill-wrapper li.android:after {
-    animation-name: android;
-}
-
-@keyframes android {
-    to {
-        width: 70%;
-    }
-}
-
-.skill-wrapper li.flask:after {
-    animation-name: flask;
-}
-
-@keyframes flask {
-    to {
-        width: 65%;
-    }
-}
-
-.skill-wrapper li.spring:after {
-    animation-name: spring;
-}
-
-@keyframes spring {
-    to {
-        width: 65%;
-    }
-}
-
-.skill-wrapper li.keras:after {
-    animation-name: keras;
-}
-
-@keyframes keras {
-    to {
-        width: 60%;
-    }
 }
 
 /*PROJECTS CSS GRID SECTION*/
@@ -516,6 +386,38 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#brisbuds img {
+    width: 200px;
+}
+
+#spamc img {
+    width: 400px;
+}
+
+#movies img {
+    width: 400px;
+}
+
+#gol img {
+    width: 300px;
+}
+
+#kernel img {
+    width: 400px;
+}
+
+#sym img {
+    width: 400px;
+}
+
+#bounce img {
+    width: 400px;
+}
+
+#snake img {
+    width: 400px;
+}
+
 .modal-content {
     background-color: #f4f4f4;
     margin: 10% auto;
@@ -551,6 +453,10 @@ footer {
     font-size: 1.2rem;
 }
 
+.modal-body a:hover {
+    text-decoration: underline;
+}
+
 .modal-body p {
     font-size: 1.2rem;
     font-weight: 600;
@@ -578,6 +484,21 @@ footer {
     }
 }
 
+.about-img img {
+    border-radius: 50%;
+    padding: 25px;
+    width: 200px;
+}
+
+.section-height {
+    height: 50px;
+}
+
+.skill {
+    height: 120px;
+    width: 120px;
+}
+
 /*RESPONSIVE PART*/
 @media screen and (max-width: 992px) {
     p {
@@ -590,6 +511,10 @@ footer {
 
     .banner-text h1 {
         font-size: 6rem !important;
+    }
+
+    .about-img img {
+        width: 150px;
     }
 }
 
@@ -608,5 +533,9 @@ footer {
 
     .banner-text h1 {
         font-size: 5rem !important;
+    }
+
+    .about-img img {
+        width: 100px;
     }
 }
