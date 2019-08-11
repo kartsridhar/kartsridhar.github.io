@@ -30,6 +30,10 @@ var snake = document.getElementById('snake');
 var openSnake = document.getElementById('openSnake');
 var closeSnake = document.getElementsByClassName('close-modal')[7];
 
+var hangman = document.getElementById('hangman');
+var openHangman = document.getElementById('openHangman');
+var closeHangman = document.getElementsByClassName('close-modal')[8];
+
 openBrisbuds.addEventListener('click', viewBrisbuds);
 closeBrisbuds.addEventListener('click', closeBris);
 openSpam.addEventListener('click', viewSpam);
@@ -46,6 +50,8 @@ openBounce.addEventListener('click', viewBounce);
 closeBounce.addEventListener('click', closeBV);
 openSnake.addEventListener('click', viewSnake);
 closeSnake.addEventListener('click', closeSS);
+openHangman.addEventListener('click', viewHangman);
+closeHangman.addEventListener('click', closeHM);
 window.addEventListener('click', closeOut);
 
 function viewBrisbuds() {
@@ -112,6 +118,14 @@ function closeSS() {
     snake.style.display = 'none';
 }
 
+function viewHangman() {
+    hangman.style.display = 'block';
+}
+
+function closeHM() {
+    hangman.style.display = 'none';
+}
+
 function closeOut(event) {
     if(event.target == brisbuds) {
         brisbuds.style.display = 'none';
@@ -136,5 +150,8 @@ function closeOut(event) {
     }
     else if(event.target == snake) {
         snake.style.display = 'none';
+    }
+    else if(event.target == hangman) {
+        hangman.style.display = 'none';
     }
 }

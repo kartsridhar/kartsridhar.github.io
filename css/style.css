@@ -351,6 +351,12 @@ footer {
     background-size: cover;
 }
 
+.project-img-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/hangman1.png');
+    background-size: cover;
+}
+
 .project-info {
     position: absolute;
     width: inherit;
@@ -374,7 +380,7 @@ footer {
 }
 
 /*Modal styling*/
-.modal, #brisbuds, #spamc, #movies, #gol, #kernel, #sym, #bounce, #snake {
+.modal, #brisbuds, #spamc, #movies, #gol, #kernel, #sym, #bounce, #snake, #hangman {
     display: none;
     position: fixed;
     z-index: 1;
@@ -415,6 +421,10 @@ footer {
 }
 
 #snake img {
+    width: 400px;
+}
+
+#hangman img {
     width: 400px;
 }
 
