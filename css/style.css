@@ -241,11 +241,11 @@ footer {
 }
 
 #social li:hover i.fa-github {
-    color: rgb(32, 201, 88);
+    color: rgb(167, 168, 167);
 }
 
 #social li:hover i.fa-linkedin {
-    color: #00aced;
+    color: #18627c;
 }
 
 #social li:hover i.fa-envelope {
