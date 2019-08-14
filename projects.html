@@ -62,8 +62,17 @@
                     </div>
                 </li>
 
-                <li id="openSpam">
+                <li id="openPynenka">
                     <div class="project-box project-img-2">
+                        <div class="project-info">
+                            <h3>Pynenka</h3>
+                            <p>A low level twitter bot that tweets live football scores.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="openSpam">
+                    <div class="project-box project-img-3">
                         <div class="project-info">
                             <h3>Spam Classifier</h3>
                             <p>A simple spam classifier using Multinomial Naive Bayes</p>
@@ -72,7 +81,7 @@
                 </li>
 
                 <li id="openMovies">
-                    <div class="project-box project-img-3">
+                    <div class="project-box project-img-4">
                         <div class="project-info">
                             <h3>Similar Movies</h3>
                             <p>A similar movie recommendation system using pandas</p>
@@ -81,7 +90,7 @@
                 </li>
 
                 <li id="openGol">
-                    <div class="project-box project-img-4">
+                    <div class="project-box project-img-5">
                         <div class="project-info">
                             <h3>Game of Life</h3>
                             <p>An implementation of Conway's Game of Life</p>
@@ -90,7 +99,7 @@
                 </li>
 
                 <li id="openKernel">
-                    <div class="project-box project-img-5">
+                    <div class="project-box project-img-6">
                         <div class="project-info">
                             <h3>Kernel OS</h3>
                             <p>A kernel implementation for ARM Cortex-A8</p>
@@ -99,7 +108,7 @@
                 </li>
 
                 <li id="openSym">
-                    <div class="project-box project-img-6">
+                    <div class="project-box project-img-7">
                         <div class="project-info">
                             <h3>Scotland Yard</h3>
                             <p>The famous Scotland Yard board game on the screen</p>
@@ -108,7 +117,7 @@
                 </li>
 
                 <li id="openBounce">
-                    <div class="project-box project-img-7">
+                    <div class="project-box project-img-8">
                         <div class="project-info">
                             <h3>Bounce Revamped</h3>
                             <p>A remake of the classic Bounce platform game</p>
@@ -117,7 +126,7 @@
                 </li>
 
                 <li id="openSnake">
-                    <div class="project-box project-img-8">
+                    <div class="project-box project-img-9">
                         <div class="project-info">
                             <h3>Snake</h3>
                             <p>A simple implementation of the vintage snake game</p>
@@ -126,7 +135,7 @@
                 </li>
 
                 <li id="openHangman">
-                    <div class="project-box project-img-9">
+                    <div class="project-box project-img-10">
                         <div class="project-info">
                             <h3>Hangman</h3>
                             <p>A console application that plays the classic guess game.</p>
@@ -157,6 +166,27 @@
             </div>
         </div>
 
+        <div id="pynenka" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close-modal">&times;</span>
+                    <h2>Pynenka</h2>
+                </div>
+                <div class="modal-body">
+                    <p>With Twitter's available API and python package, I wrote a bot that scrapes live football scores and replies them to the respective user.</p>
+                    <p>I used <a href="https://livescores.com">livescores.com</a> to get the live football scores. The rest of the logic was implemented in Python.</p>
+                    <p>To test Pynenka, simply log on twitter and tweet at it with the hashtag <a href="https://twitter.com/pynenka">#Golazo</a> and wait for your football update.</p>
+                    <p>I am currently working on deploying the app to make it fully automated. Below is a demo of how Pynenka works.</p>
+                    <center><img src="img/projects/pynenka-demo.gif"></center>
+                    <p>I plan to make Pynenka more responsive in the future where it can return further details of the ongoing football game</p>
+                    <p>All source code for this project can be found <a href="https://github.com/kartsridhar/Pynenka">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <h6>Python with Beautiful Soup and Tweepy</h6>
+                </div>
+            </div>
+        </div>
+
         <div id="spamc" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -169,7 +199,7 @@
                     <p>The dataset used to train this model can be found <a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">here</a>.</p>
                     <center><img src="img/projects/spam1.JPG"></center>
                     <p>Using Heroku CLI, I deployed the Flask application onto cloud. Below is the output for the above text entered.</p>
-                    <p>Here is a <a href="https://powerful-plateau-53291.herokuapp.com/">webapp</a> demonstrating this project.</p>
+                    <p>Here is a <a href="https://spamm-classify.herokuapp.com/">webapp</a> demonstrating this project.</p>
                     <center><img src="img/projects/spam2.JPG"></center>
                     <p>All source code for this project can be found <a href="https://github.com/kartsridhar/gnb-spam-classifier">here</a>.</p>
                 </div>

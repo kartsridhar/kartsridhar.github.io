@@ -312,46 +312,52 @@ footer {
 
 .project-img-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url('../img/projects/spam3.jpg');
-    background-size: 100% 100%;
+    url('../img/projects/pynenka1.png');
+    background-size: cover;
 }
 
 .project-img-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url('../img/projects/movies.jpg');
+    url('../img/projects/spam3.jpg');
     background-size: 100% 100%;
 }
 
 .project-img-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url('../img/projects/gol2.jpg');
+    url('../img/projects/movies.jpg');
+    background-size: 100% 100%;
 }
 
 .project-img-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url('../img/projects/gol2.jpg');
+}
+
+.project-img-6 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
     url('../img/projects/kernel1.jpg');
     background-size: 100% 100%;
 }
 
-.project-img-6 {
+.project-img-7 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
     url('../img/projects/MrX.jpg');
     background-size: cover;
 }
 
-.project-img-7 {
+.project-img-8 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
     url('../img/projects/bounce.jpg');
     background-size: cover;
 }
 
-.project-img-8 {
+.project-img-9 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
     url('../img/projects/snake1.png');
     background-size: cover;
 }
 
-.project-img-9 {
+.project-img-10 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
     url('../img/projects/hangman1.png');
     background-size: cover;
@@ -380,7 +386,7 @@ footer {
 }
 
 /*Modal styling*/
-.modal, #brisbuds, #spamc, #movies, #gol, #kernel, #sym, #bounce, #snake, #hangman {
+.modal, #brisbuds, #pynenka, #spamc, #movies, #gol, #kernel, #sym, #bounce, #snake, #hangman {
     display: none;
     position: fixed;
     z-index: 1;
@@ -394,6 +400,10 @@ footer {
 
 #brisbuds img {
     width: 200px;
+}
+
+#pynenka img {
+    width: 400px;
 }
 
 #spamc img {
